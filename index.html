@@ -1,1 +1,24 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game">
+        <h1>Cookie Clicker Clone</h1>
+        <div id="cookie-container">
+            <img id="cookie" src="cookie.png" alt="Cookie">
+        </div>
+        <p>Cookies: <span id="cookie-count">0</span></p>
+        <div id="upgrades">
+            <h2>Upgrades</h2>
+            <button id="upgrade1" onclick="buyUpgrade(1)">Buy Cursor (10 cookies)</button>
+            <button id="upgrade2" onclick="buyUpgrade(2)">Buy Grandma (100 cookies)</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
